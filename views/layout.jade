@@ -1,0 +1,13 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/style.css')
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', href='/css/font-awesome.min.css')
+    script(src='/socket.io/socket.io.js')
+    script(src='/js/packery.pkgd.min.js')
+    script(src='/js/draggabilly.pkgd.min.js')
+    script(src='/js/status.js', defer)
+  body
+    block content
